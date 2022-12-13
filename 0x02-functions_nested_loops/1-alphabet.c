@@ -18,5 +18,5 @@ void print_aphabet(void)
 	}
 
 	_putchar('\n');
-	return (0);
 }
+	
