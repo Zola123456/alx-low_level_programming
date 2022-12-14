@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet -learning time
+ * print_alphabet - learning time
  */
-
 void print_alphabet(void)
 {
-	int c;
+	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 'a', c <= 'z'; c++)
 	{
-		putchar(c);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
+
+
