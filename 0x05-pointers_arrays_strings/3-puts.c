@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * _puts - Write a function that prints a string, followed by a new line, to
+ * _puts - Write - function that prints a string, followed by a new line,to
  * stdout.
  *
- * @str: This is my imput string
+ * @str: This is my imputy string
  *
  */
 
 void _puts(char *str)
 {
-	int inddex;
+	int index;
 
-	for (index = 0; str[index] != '\0' ; index++)
+	for (index = 0; str[index] != '\0'; index++)
 	{
 		_putchar(str[index]);
 	}
