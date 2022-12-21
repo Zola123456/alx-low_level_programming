@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - concatenate two string but add imputted number of bytes
+ * _Strncat - concatenate two strings but add imputted number of bytes
  * @dest: String to be appended upon
  * @src: String to be completed at end of dest
  * @n: integer parameter to compare index to
@@ -19,4 +19,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[dest_len++] = src[index];
 
 	return (dest);
+
 }
